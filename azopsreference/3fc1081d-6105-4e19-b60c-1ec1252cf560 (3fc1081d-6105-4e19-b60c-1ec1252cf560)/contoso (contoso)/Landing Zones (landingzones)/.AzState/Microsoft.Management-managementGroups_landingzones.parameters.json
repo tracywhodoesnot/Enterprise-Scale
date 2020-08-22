@@ -172,8 +172,105 @@
               "ResourceType": "Microsoft.Authorization/policyAssignments"
             }
           ],
-          "roleDefinitions": null,
-          "roleAssignments": null
+          "roleDefinitions": [],
+          "roleAssignments": [
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/7aa4cdb8-8f47-4fca-9bdd-e8f187986ac5",
+              "Name": "7aa4cdb8-8f47-4fca-9bdd-e8f187986ac5",
+              "properties": {
+                "DisplayName": "MS-PIM",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "fbebcb52-9901-4f2d-b50f-55a39432d159",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                "RoleDefinitionName": "User Access Administrator"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/0128b94e-49a4-45d4-8355-3cf020f100cf",
+              "Name": "0128b94e-49a4-45d4-8355-3cf020f100cf",
+              "properties": {
+                "DisplayName": "uday.pandya@microsoft.com",
+                "ObjectType": "User",
+                "PrincipalId": "a8a6e6dd-da4d-4b74-bdfd-cc1b4d48bf13",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/a775ce76-798a-5d83-8179-d61e14abe27f",
+              "Name": "a775ce76-798a-5d83-8179-d61e14abe27f",
+              "properties": {
+                "DisplayName": "Deploy-vNet",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "35cbdef9-bc47-4284-ba5f-d803a5f1053b",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/b4f59829-2b00-5ad0-af46-54ee7a695450",
+              "Name": "b4f59829-2b00-5ad0-af46-54ee7a695450",
+              "properties": {
+                "DisplayName": {},
+                "ObjectType": "Unknown",
+                "PrincipalId": "50cf8db4-e8df-4ad9-b110-16c5a0519586",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/24b73110-6673-404a-9645-4ac37de940c4",
+              "Name": "24b73110-6673-404a-9645-4ac37de940c4",
+              "properties": {
+                "DisplayName": {},
+                "ObjectType": "Unknown",
+                "PrincipalId": "71f70c34-c526-4c54-b5f3-b6f79e26418f",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/fce04e4c-b34c-51f3-8ae6-47322b68ab41",
+              "Name": "fce04e4c-b34c-51f3-8ae6-47322b68ab41",
+              "properties": {
+                "DisplayName": "Deny-PublicEndpoints",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "87bdb724-c99d-49de-90ea-745b3cfc250b",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/49b63628-9697-4fb4-b6a6-25f6069ad7ea",
+              "Name": "49b63628-9697-4fb4-b6a6-25f6069ad7ea",
+              "properties": {
+                "DisplayName": {},
+                "ObjectType": "Unknown",
+                "PrincipalId": "e76fda30-0a1a-4b50-8e25-b791225b10be",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/landingzones/providers/Microsoft.Authorization/roleAssignments/ea9098e0-767e-4c2e-85e7-5d3073e43fa4",
+              "Name": "ea9098e0-767e-4c2e-85e7-5d3073e43fa4",
+              "properties": {
+                "DisplayName": {},
+                "ObjectType": "Unknown",
+                "PrincipalId": "efe422c5-8356-4c64-94a8-c7d21feaf551",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            }
+          ]
         }
       }
     }

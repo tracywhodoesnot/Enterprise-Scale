@@ -11814,8 +11814,129 @@
               "ResourceType": "Microsoft.Authorization/policyAssignments"
             }
           ],
-          "roleDefinitions": null,
-          "roleAssignments": null
+          "roleDefinitions": [],
+          "roleAssignments": [
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/7ed15c05-65b7-4a69-b749-e4fd38115034",
+              "Name": "7ed15c05-65b7-4a69-b749-e4fd38115034",
+              "properties": {
+                "DisplayName": "Marvin Buss",
+                "ObjectType": "User",
+                "PrincipalId": "e078cd6f-1054-41da-93a2-2e08f5f94902",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                "RoleDefinitionName": "User Access Administrator"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/75056d84-ac8c-4146-b149-f183206970b5",
+              "Name": "75056d84-ac8c-4146-b149-f183206970b5",
+              "properties": {
+                "DisplayName": "MS-PIM",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "fbebcb52-9901-4f2d-b50f-55a39432d159",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                "RoleDefinitionName": "User Access Administrator"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/366222a8-ea67-4032-8b3e-05baec02612b",
+              "Name": "366222a8-ea67-4032-8b3e-05baec02612b",
+              "properties": {
+                "DisplayName": "ljtill",
+                "ObjectType": "User",
+                "PrincipalId": "a0792f0e-4857-4d12-a3b9-a6246069fcb7",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                "RoleDefinitionName": "Reader"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/458038c7-1c07-491d-9607-999f0d75c957",
+              "Name": "458038c7-1c07-491d-9607-999f0d75c957",
+              "properties": {
+                "DisplayName": "Cristian Edwards Sabathe",
+                "ObjectType": "User",
+                "PrincipalId": "a9539e9e-ec27-431c-8b8f-79ee8f538842",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                "RoleDefinitionName": "Reader"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/e598b9b0-b576-5e1e-906d-13bf29c87b3d",
+              "Name": "e598b9b0-b576-5e1e-906d-13bf29c87b3d",
+              "properties": {
+                "DisplayName": "Deploy-Diag-ActivityLog",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "08012a79-4f9b-4642-af3a-8b4dc153830e",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/38a67e58-3dd5-5d0c-bc7a-ba47befc0a0f",
+              "Name": "38a67e58-3dd5-5d0c-bc7a-ba47befc0a0f",
+              "properties": {
+                "DisplayName": "Deploy-Diag-LogAnalytics",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "1c416181-9b25-4f5c-b2ac-c022f32b547f",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/e99fdbcc-0119-58e3-a884-df969d9b90a4",
+              "Name": "e99fdbcc-0119-58e3-a884-df969d9b90a4",
+              "properties": {
+                "DisplayName": "Deploy-ASC-CE",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "5a554118-872c-42b1-9bdd-bf45fbf23fed",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/c4f73f04-29b0-53a4-9276-c2f8174652a1",
+              "Name": "c4f73f04-29b0-53a4-9276-c2f8174652a1",
+              "properties": {
+                "DisplayName": "Deploy-ASC-Standard",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "761c6317-9cfb-4aa7-8b65-1635759fac18",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/7ffbbff0-3b5b-5896-8dd9-6ab7477223c4",
+              "Name": "7ffbbff0-3b5b-5896-8dd9-6ab7477223c4",
+              "properties": {
+                "DisplayName": "Deploy-VM-Monitoring",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "e04b29aa-80fc-4e98-b361-fff6b62d6668",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/roleAssignments/67847966-5356-50ec-94da-2791e5822f97",
+              "Name": "67847966-5356-50ec-94da-2791e5822f97",
+              "properties": {
+                "DisplayName": "Deploy-ASC-Monitoring",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "eb074cf8-9e1d-4304-aa9f-79446fa2e2d4",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            }
+          ]
         }
       }
     }

@@ -48,8 +48,33 @@
           "policyDefinitions": [],
           "policySetDefinitions": [],
           "policyAssignments": [],
-          "roleDefinitions": null,
-          "roleAssignments": null
+          "roleDefinitions": [],
+          "roleAssignments": [
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/corp/providers/Microsoft.Authorization/roleAssignments/62ef67d6-156a-4f5a-8dce-5c05345b8e81",
+              "Name": "62ef67d6-156a-4f5a-8dce-5c05345b8e81",
+              "properties": {
+                "DisplayName": "MS-PIM",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "fbebcb52-9901-4f2d-b50f-55a39432d159",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                "RoleDefinitionName": "User Access Administrator"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/providers/Microsoft.Management/managementGroups/corp/providers/Microsoft.Authorization/roleAssignments/995453b0-3abc-4fe5-b88f-c9423c7825fd",
+              "Name": "995453b0-3abc-4fe5-b88f-c9423c7825fd",
+              "properties": {
+                "DisplayName": {},
+                "ObjectType": "Unknown",
+                "PrincipalId": "2c25a680-5943-4cf3-abbd-999be5a9c8b8",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            }
+          ]
         }
       }
     }
